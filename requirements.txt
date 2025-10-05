@@ -1,0 +1,22 @@
+# 深度学习框架
+torch>=2.0.0
+transformers>=4.30.0
+
+# 参数高效微调
+peft>=0.4.0
+
+# 训练加速
+accelerate>=0.20.0
+
+# 数据处理
+numpy>=1.24.0
+pandas>=2.0.0
+
+# 其他依赖
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+cpm-kernels>=1.0.11
+
+# 可选：量化支持
+# bitsandbytes>=0.39.0
+

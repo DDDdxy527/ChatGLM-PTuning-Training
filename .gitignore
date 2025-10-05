@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# 模型文件（太大不上传）
+chatglm-6b/
+*.bin
+*.safetensors
+model_best/
+checkpoints/
+
+# 训练日志
+logs/
+*.log
+runs/
+
+# 数据文件（可能包含敏感信息）
+data/*.jsonl
+!data/dataset.jsonl
+
+# 临时文件
+.DS_Store
+Thumbs.db
+
+# PyTorch
+*.pth
+*.pt
+
